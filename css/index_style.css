@@ -1,0 +1,50 @@
+@import url('https://fonts.google.com/specimen/Barlow+Semi+Condensed');
+:root{
+    --moderate-violet:#7541c8;
+    --very-dark-grayish-blue: #48556a;
+    --very-dark-blackish-blue:#19212e;
+    --light-gray:#cfcfcf;
+    --light-gray-blue:#ecf2f8;
+}
+.barlow{
+    font-family: "Barlow Semi Condensed";
+}
+.barlow-bold{
+    font-weight: 500;
+}
+.barlow-bolder{
+    font-weight: 600;
+}
+.fs-small{
+    font-size: 13px;
+}
+.text-light-gray{
+    color: var(--light-gray);
+}
+.bg-violet{
+    background-color: var(--moderate-violet);
+}
+.border-violet{
+    border-color: var(--moderate-violet)!important;
+}
+.booster{
+    background-image:  url(../images/bg-pattern-quotation.svg);
+    background-position: 85% top;
+    background-repeat: no-repeat ;
+   
+}
+.bg-grayish{
+    background-color: var(--very-dark-grayish-blue)
+}
+.bg-blackish{
+    background-color: var(--very-dark-blackish-blue)
+}
+.bg-light-gray{
+    background-color: var(--light-gray);
+}
+.bg-light-gray-blue{
+    background-color: var(--light-gray-blue);
+}
+.stretch{
+    height: 100%;
+}
